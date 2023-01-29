@@ -1,7 +1,7 @@
 // Llamada a la API para obtener las series páginadas. Por defecto en la API se muestran de 3 en 3.
  
 const getDataPaged = (page) => {
-    return fetch(`https://api-seriestorresmald.vercel.app/series/paged?page=${page}`)
+    return fetch(`https://api-series-torresmald.vercel.app/series/paged?page=${page}`)
         .then((res) => res.json())
         .then((res) => {
             const page = res.nextPage;
