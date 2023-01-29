@@ -1,7 +1,7 @@
 // Llamada a la API para obtener todas las series. 
 
 const getAllSeries = () => {
-    return fetch(`https://proyecto-react-api.vercel.app/series`)
+    return fetch(`https://api-seriestorresmald.vercel.app/series`)
         .then((res) => res.json())
         .then((res) => {
             const data = res.map((serie) => {
@@ -23,3 +23,8 @@ const getAllSeries = () => {
 };
 
 export default getAllSeries;
+
+
+
+
+

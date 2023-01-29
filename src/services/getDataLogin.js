@@ -8,7 +8,7 @@ const getDataLogin = (user) => {
         goodResult: false,
         badResult: false
         }
-    return axios.post('https://proyecto-react-api.vercel.app/users/login', user)
+    return axios.post('https://api-seriestorresmald.vercel.app/users/login', user)
         .then((response) => {
             if (response) {
                 userDB.goodResult = true;

@@ -3,7 +3,7 @@
 ![Image Movies](https://c7.alamy.com/compes/h7gegn/coleccion-de-16…drados-negros-con-esquinas-redondeadas-h7gegn.jpg)
 
 Bienvenido a esta Web con una coleccion de Series de Television.
-La web está añbergada en Netlify como Host de Deploy.
+La web está albergada en Netlify como Host de Deploy.
 Esta web realiza las peticiones contra una API realizada con NodeJS.
 Dicha API tiene recursos albergados en un Servidor Cloud en MongoAtlas utilizando MongoDB como BBDD. La API está desplegada utilizando Vercel como Host.
 

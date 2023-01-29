@@ -9,7 +9,7 @@ const getDataRegister = (user) => {
         badResultAge: 'Edad requerida',
         badBothResult: 'Email y edad incorrecto'
     }
-    return axios.post('https://proyecto-react-api.vercel.app/users/register', user)
+    return axios.post('https://api-seriestorresmald.vercel.app/users/register', user)
             .then((response) => {
                 if (response) {
                     return result.goodResult
