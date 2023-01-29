@@ -1,0 +1,40 @@
+@import "../core/colors";
+@import "../core/fonts";
+
+.profile {
+  position: absolute;
+  left: 5%;
+  font-family: "font2";
+  &__title {
+    color: $color-secondary;
+  }
+  &__data {
+    color: $color-azul-4;
+  }
+  &__logout {
+    height: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #495057;
+    background: #495057;
+  }
+  &__logout:hover {
+    background: #fff;
+    color: #495057;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .profile {
+    position: relative;
+    margin-bottom: 6%;
+  }
+}
+  
+

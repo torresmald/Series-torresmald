@@ -1,0 +1,66 @@
+@import "../core/colors";
+@import '../core/fonts';
+
+.serie {
+  &__title {
+    font-family: "font2";
+    font-size: 50px;
+    color: #155e8b;
+    text-shadow:  0  1px  0   #156c8b,
+                  0  2px  0   #13577c,
+                  0  3px  0   #11336e, 
+                  0  4px  0   #0e225f, 
+                  0  5px  0   #0c0e50,
+                  0  6px  0   #130a41,
+                  3px 8px 15px rgba(0,0,0,0.1),
+                  3px 8px  5px rgba(0,0,0,0.3);
+  }
+  &__image {
+    width: 26%;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 5px 5px 8px #000000c1;
+    object-fit: cover;
+    position: relative;
+  }
+}
+
+.grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(5, 40px);
+      margin: auto;
+      width: 74%;
+      color: $color-secondary;
+      background-color: $color-azul-5;
+      box-shadow: 20px 20px 28px #000000;
+      border-radius: 20px;
+      position: relative;
+      justify-content: center;
+      &__sinopsys{
+        grid-column: span 2;
+        font-size: 20px;
+        position: relative;
+      }
+      &__director, &__genre, &__platform, &__seasons, &__year{
+        display: flex;
+        justify-content: flex-end;
+      
+      }
+      &__director_list, &__genre_list, &__platform_platform, &__year_year, &__seasons_seasons{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: left;
+      }
+  }
+
+
+
+@media screen and (max-width: 1024px) {
+  .serie {
+    &__image {
+      width: 35%;
+    }
+  }
+} 

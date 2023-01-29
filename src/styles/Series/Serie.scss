@@ -1,0 +1,31 @@
+@import "../core/colors";
+@import '../core/fonts';
+.series {
+  font-family: "font2";
+  width: 30%;
+  background-color: $color-azul-5;
+  margin: 10px;
+  border-radius: 20px;
+  &__cardSerie {
+    list-style: none;
+    padding-bottom: 20px;
+    &_link {
+      text-decoration: none;
+      color: $color-azul-4;
+    }
+    &_image {
+      width: 200px;
+      border-radius: 20px;
+      height: 250px;
+      object-fit: cover;
+      transition: all 0.5s ease-in-out;
+      
+    }
+    &_image {
+      overflow: hidden;
+    }
+    &_image:hover {
+      transform: scale(1.1);
+    }
+  }
+}

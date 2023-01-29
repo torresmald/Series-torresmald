@@ -1,0 +1,18 @@
+
+.divLogin {
+  background: linear-gradient(
+      to top,
+      rgba(30, 38, 36, 0.566),
+      rgba(54, 63, 65, 0.96)
+    ),
+    url(../../images/imagen_formulario.jpeg);
+  background-size: cover;
+  height: 100vh;
+  &__buttonHome {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+}

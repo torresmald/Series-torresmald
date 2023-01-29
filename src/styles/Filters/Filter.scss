@@ -1,0 +1,9 @@
+@import "../core/colors";
+
+.filter{
+    &__label{
+        margin-right: 10px;
+        font-size: 20px;
+        color: $color-azul-4;
+    }
+}

@@ -1,0 +1,40 @@
+@import "../core/colors";
+.option {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  &__label {
+    margin-right: 10px;
+    font-size: 20px;
+    color: $color-azul-4;
+  }
+  &__select {
+    margin-right: 10px;
+  }
+  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    .option__select_button{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #495057;
+        background: #495057;
+        z-index: -1;
+    }
+  }
+  button:hover {
+    background: #fff;
+    color: #495057;
+    
+  }
+}

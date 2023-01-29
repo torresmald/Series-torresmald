@@ -1,0 +1,29 @@
+.footer {
+  position: absolute;
+  display: flex;
+  gap: 100px;
+  left: 50%;
+  margin-top: 100px;
+  transform: translate(-50%, -50%);
+  &__link {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #495057;
+    background: #495057;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  &__link:visited {
+    color: #fff;
+  }
+  &__link:hover {
+    background: #fff;
+    color: #495057;
+  }
+  &__gitIcon {
+    font-size: 12px;
+  }
+}
