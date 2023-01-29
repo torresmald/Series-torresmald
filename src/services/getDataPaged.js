@@ -16,6 +16,7 @@ const getDataPaged = (page) => {
                     synopsis: serie.synopsis,
                     year: serie.year,
                     picture: serie.picture,
+                    trailer: serie.trailer,
                     isForAdults: serie.isForAdults,
                     page: page
                 }

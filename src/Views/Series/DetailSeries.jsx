@@ -47,6 +47,9 @@ function DetailSeries({ series, handleOptionInput, userLoggedAge }) {
                             </div>
                         </div>
                     </div>
+                    <div className="serie__trailer">
+                        <a href={selectedSerie.trailer}>Trailer</a>
+                    </div>
                     <div className="buttonHome">
                         <ButtonHome handleOption={handleOptionInput} />
                     </div>
