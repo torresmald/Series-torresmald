@@ -48,7 +48,8 @@ function DetailSeries({ series, handleOptionInput, userLoggedAge }) {
                         </div>
                     </div>
                     <div className="serie__trailer">
-                        <a href={selectedSerie.trailer}>Trailer</a>
+                        <iframe width="420" height="315" src={selectedSerie.trailer}>
+                        </iframe>
                     </div>
                     <div className="buttonHome">
                         <ButtonHome handleOption={handleOptionInput} />
