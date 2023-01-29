@@ -17,7 +17,7 @@ function ListSeries({ series, nextPage, previousPage, showPreviousButton, showNe
 
     return (
         <main className="divList">
-            <h1 className={`title ${!isLoaded ? "display": null}`}>SERIES MALEON</h1>
+            <h1 className={`title ${!isLoaded ? "display": null}`}>SERIES TORRESMALD</h1>
             <ul className="listSerie">
                 {listSeries}
             </ul>

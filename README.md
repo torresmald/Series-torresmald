@@ -62,7 +62,6 @@ Abrir el navegador en: http://localhost:3000
 
 - Project Repo: https://github.com/torresmald/proyect-react-web
 - Email: jonathan.torresmald@gmail.com
-- Email: BEATRIZ
 
 DIVIERTETE USANDOLA......!!
 
